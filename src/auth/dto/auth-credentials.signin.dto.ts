@@ -1,6 +1,6 @@
-import { IsNotEmpty, IsString, Matches, matches, MaxLength, MinLength } from "class-validator";
+import { IsEmail, IsNotEmpty, IsString, Matches, matches, MaxLength, MinLength } from "class-validator";
 
-export class AuthCredentialDto {
+export class AuthCredentialSignInDto {
 
     @IsNotEmpty()
     @IsString()
